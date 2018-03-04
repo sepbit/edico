@@ -2,7 +2,7 @@
 EditorConfig for Codiad
 
 [![Software License](https://img.shields.io/github/license/vitorteccom/codiad-editorconfig.svg)](LICENSE)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vitorteccom/codiad-editorconfig/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vitorteccom/dekajs/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vitorteccom/codiad-editorconfig/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vitorteccom/codiad-editorconfig/?branch=master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/vitorteccom/codiad-editorconfig/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 This is a simple plugin for to support [EditorConfig](http://editorconfig.org/) in [Codiad](http://codiad.com/). This plugin is not official.
