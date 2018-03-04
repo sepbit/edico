@@ -19,6 +19,16 @@ checks:
     fix_doc_comments: true
 build:
   nodes:
+    node620:
+      environment:
+        node: v6.2.0
+      dependencies:
+        override:
+          - npm install
+      tests:
+        override:
+          - node_modules/.bin/standard --fix init.js
+          - node_modules/.bin/standard init.js
     php708:
       environment:
         php: 7.0.8
@@ -30,13 +40,3 @@ build:
           - vendor/bin/phpcbf -p --standard=PSR2 controller.php
           - vendor/bin/phpcs -p --standard=PSR2 controller.php
           - php-scrutinizer-run
-    node620:
-      environment:
-        node: v6.2.0
-      dependencies:
-        override:
-          - npm install
-      tests:
-        override:
-          - node_modules/.bin/standard --fix init.js
-          - node_modules/.bin/standard init.js
