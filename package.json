@@ -1,7 +1,7 @@
 {
   "name": "vitorteccom-codiad-editorconfig",
   "description": "This is a simple plugin for to support EditorConfig in Codiad.",
-  "version": "0.1",
+  "version": "0.1.0",
   "keywords": ["codiad", "editorconfig", "vitorteccom"],
   "homepage": "https://devs.vitortec.com/codiad-editorconfig",
   "license": "GPL-3.0",
