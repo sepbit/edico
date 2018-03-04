@@ -14,8 +14,9 @@
 $path = $_REQUEST['p'];
 
 if (!file_exists($_REQUEST['p'])) {
-    include '../../config.php';
-    $path = WORKSPACE .'/'. $_REQUEST['p'];
+    include_once '../../common.php';
+    checkSession();
+    $path = BASE_PATH .'/workspace/'. $_REQUEST['p'];
 }
 
 exec('editorconfig '. $path, $outputArray);
