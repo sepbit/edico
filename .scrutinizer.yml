@@ -29,6 +29,7 @@ build:
         override:
           - node_modules/.bin/standard --fix init.js
           - node_modules/.bin/standard init.js
+          - php-scrutinizer-run
     php708:
       environment:
         php: 7.0.8
