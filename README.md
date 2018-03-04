@@ -2,7 +2,6 @@
 EditorConfig for Codiad
 
 [![Software License](https://img.shields.io/github/license/vitorteccom/codiad-editorconfig.svg)](LICENSE)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vitorteccom/codiad-editorconfig/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vitorteccom/codiad-editorconfig/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/vitorteccom/codiad-editorconfig/badges/build.png?b=master)](https://scrutinizer-ci.com/g/vitorteccom/codiad-editorconfig/build-status/master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/vitorteccom/codiad-editorconfig/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
