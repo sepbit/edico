@@ -32,7 +32,6 @@
       amplify.subscribe('active.onFocus', function () {
         var path = codiad.active.getPath()
         $.getJSON(curpath + 'controller.php?p=' + path, function (result) {
-          console.log('path: ' + path + ', indentStyle: ' + result.indentStyle + ', indentSize: ' + result.indentSize)
           codiad.editor.setTabSize(result.indentSize)
           if (result.indentStyle === 'space') {
             codiad.editor.setSoftTabs(true)
