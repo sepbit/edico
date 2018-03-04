@@ -17,7 +17,7 @@ Via NPM.
 $ npm install -g editorconfig
 ```
 
-Via Debian or Ubuntu.
+Or via Debian or Ubuntu.
 
 ``` bash
 $ apt install editorconfig
