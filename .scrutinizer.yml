@@ -29,6 +29,7 @@ build:
         override:
           - vendor/bin/phpcbf -p --standard=PSR2 controller.php
           - vendor/bin/phpcs -p --standard=PSR2 controller.php
+          - php-scrutinizer-run
     node620:
       environment:
         node: v6.2.0
