@@ -43,12 +43,15 @@ indent_size = 2
 
 [*.md]
 indent_style = tab
+tab_width = 2
 
 [*.php]
 indent_size = 4
 ```
 
-This plugin only supports for **indent_style** and **indent_size**.
+This plugin only supports for ``indent_style``, ``indent_size`` or ``tab_width``.
+
+Partial support: ``tab_width`` cannot be set to a different value than ``indent_size``. When ``indent_style`` is "tab".
 
 ## Change log
 
