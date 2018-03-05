@@ -30,8 +30,7 @@
 
     init: function () {
       amplify.subscribe('active.onFocus', function () {
-        var path = codiad.active.getPath()
-        $.getJSON(curpath + 'controller.php?p=' + path, function (result) {
+        $.getJSON(curpath + 'controller.php?p=' + codiad.active.getPath(), function (result) {
           if (result.indentSize >= 1) {
             codiad.editor.setTabSize(result.indentSize)
           }
