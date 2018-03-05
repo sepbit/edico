@@ -31,7 +31,7 @@
     init: function () {
       amplify.subscribe('active.onFocus', function () {
         $.getJSON(curpath + 'controller.php?p=' + codiad.active.getPath(), function (result) {
-          if (result.tabWidth >= 2) {
+          if (result.tabWidth >= 2 && result.tabWidth <= 8) {
             codiad.editor.setTabSize(result.tabWidth)
           }
           if (result.indentStyle === 'space') {
