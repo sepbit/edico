@@ -27,9 +27,9 @@ foreach ($outputArray as $value) {
         $config['indentStyle'] = $outputArray[1];
     }
 
-    preg_match("/indent_size=(\d+)/", $value, $outputArray);
+    preg_match("/tab_width=(\d+)/", $value, $outputArray);
     if ($outputArray) {
-        $config['indentSize'] = (int) $outputArray[1];
+        $config['tabWidth'] = (int) $outputArray[1];
     }
 }
 
