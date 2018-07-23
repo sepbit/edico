@@ -1,5 +1,3 @@
-<!-- Provide a general summary of the issue in the Title above -->
-
 ## Detailed description
 
 Provide a detailed description of the change or addition you are proposing.
@@ -20,8 +18,8 @@ Not obligatory, but suggest an idea for implementing addition or change.
 
 Include as many relevant details about the environment you experienced the bug in and how to reproduce it.
 
-* Version used (e.g. PHP 7.0, ECMAScript 6):
-* Operating system and version (e.g. Debian 9.3, Ubuntu 16.04):
+* Version used (e.g. PHP 7, HHVM 3):
+* Operating system and version (e.g. Debian 9, Windows 10):
 * Link to your project:
 * ...
 * ...

@@ -1,35 +1,26 @@
-# Codiad EditorConfig
-EditorConfig for Codiad
+# Edico
+EDItorCOnfig for COdiad
 
-[![Software License](https://img.shields.io/github/license/vitorteccom/codiad-editorconfig.svg)](LICENSE)
-[![Build Status](https://scrutinizer-ci.com/g/vitorteccom/codiad-editorconfig/badges/build.png?b=master)](https://scrutinizer-ci.com/g/vitorteccom/codiad-editorconfig/build-status/master)
-[![Code Intelligence Status](https://scrutinizer-ci.com/g/vitorteccom/codiad-editorconfig/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![Software License](https://img.shields.io/github/license/vitorteccom/edico.svg)](LICENSE.md)
 
 This is a simple plugin for to support [EditorConfig](http://editorconfig.org/) in [Codiad](http://codiad.com/). This plugin is not official.
 
-This package is compatible with code style [Standard](https://github.com/standard/standard), [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) and [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md).
+This package is compatible with code style [Standard](https://github.com/standard/standard), [LibreJS](https://www.gnu.org/software/librejs) and [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md).
 
 ## Install
 
-Via NPM.
+To install you need to have the following pieces of software on your computer:
+
+- EditorConfig
+
+You can install ``EditorConfig`` via your operating system's package manager. For Debian-like GNU/Linux distributions this would be:
 
 ``` bash
-$ npm install -g editorconfig
-```
-
-Or via Debian or Ubuntu.
-
-``` bash
-$ apt install editorconfig
-```
-
-In your plugin directory.
-
-``` bash
-$ git clone https://github.com/vitorteccom/codiad-editorconfig.git
+$ apt-get install editorconfig
 ```
 
 ## Usage
+
 This is minimal example.
 
 ``` yaml
@@ -55,11 +46,11 @@ Partial support: ``tab_width`` cannot be set to a different value than ``indent_
 
 ## Change log
 
-Please see [CHANGELOG](docs/CHANGELOG.md) for more information on what has changed recently.
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
 ## Contributing
 
-Please see [CONTRIBUTING](docs/CONTRIBUTING.md) and [CODE_OF_CONDUCT](docs/CODE_OF_CONDUCT.md) for details.
+Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
 
 ## Security
 
@@ -72,4 +63,4 @@ If you discover any security related issues, please email ``contato@vitortec.com
 
 ## License
 
-GPLv3. Please see [License File](LICENSE) for more information.
+GPL-3.0-or-later. Please see [License File](LICENSE.md) for more information.
