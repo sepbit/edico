@@ -56,13 +56,29 @@
 
     init: function () {
       amplify.subscribe('active.onFocus', function () {
+
+        /**
+         * Get result EditorConfig
+         */
         $.getJSON(curpath + 'controller.php?p=' + codiad.active.getPath(), function (result) {
+
+          /**
+           * Set indent
+           */
           if (result.tabWidth >= 2 && result.tabWidth <= 8) {
             codiad.editor.setTabSize(result.tabWidth)
           }
+
+          /**
+           * Set space
+           */
           if (result.indentStyle === 'space') {
             codiad.editor.setSoftTabs(true)
           }
+
+          /**
+           * Set tab
+           */
           if (result.indentStyle === 'tab') {
             codiad.editor.setSoftTabs(false)
           }

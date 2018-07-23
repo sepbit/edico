@@ -24,6 +24,9 @@
  * @see       https://github.com/vitorteccom/edico Repository of Edico
  */
 
+/**
+ * Get the project directory
+ */
 $path = $_REQUEST['p'];
 
 if (!file_exists($_REQUEST['p'])) {
@@ -32,18 +35,33 @@ if (!file_exists($_REQUEST['p'])) {
     $path = BASE_PATH .'/workspace/'. $_REQUEST['p'];
 }
 
+/**
+ * Execute EditorConfig
+ */
 exec('editorconfig '. $path, $outputArray);
 
+/**
+ * Analyze the result
+ */
 foreach ($outputArray as $value) {
+    /**
+     * Get indentStyle
+     */
     preg_match("/indent_style=(\w+)/", $value, $outputArray);
     if ($outputArray) {
         $config['indentStyle'] = $outputArray[1];
     }
 
+    /**
+     * Get tabWidth
+     */
     preg_match("/tab_width=(\d+)/", $value, $outputArray);
     if ($outputArray) {
         $config['tabWidth'] = (int) $outputArray[1];
     }
 }
 
+/**
+ * Build JSON
+ */
 echo json_encode($config);
