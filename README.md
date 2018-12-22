@@ -1,7 +1,7 @@
 # Edico
 EDItorCOnfig for COdiad
 
-[![Software License](https://img.shields.io/github/license/vitorteccom/edico.svg)](LICENSE.md)
+[![Software License](https://img.shields.io/github/license/vitorteccom/edico.svg)](COPYING)
 
 This is a simple plugin for to support [EditorConfig](http://editorconfig.org/) in [Codiad](http://codiad.com/). This plugin is not official.
 
