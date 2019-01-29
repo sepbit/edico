@@ -35,17 +35,13 @@
 /* global jQuery, amplify */
 
 (function (global, $) {
-  /**
-   * Define core
-   */
+  /** Define core */
   var codiad = global.codiad
   var scripts = document.getElementsByTagName('script')
   var path = scripts[scripts.length - 1].src.split('?')[0]
   var curpath = path.split('/').slice(0, -1).join('/') + '/'
 
-  /**
-   * Instantiates plugin
-   */
+  /** Instantiates plugin */
   $(function () {
     codiad.EditorConfig.init()
   })
@@ -56,29 +52,19 @@
 
     init: function () {
       amplify.subscribe('active.onFocus', function () {
-
-        /**
-         * Get result EditorConfig
-         */
-        $.getJSON(curpath + 'controller.php?p=' + codiad.active.getPath(), function (result) {
-
-          /**
-           * Set indent
-           */
+        /** Get result EditorConfig */
+        $.getJSON(this.path + 'controller.php?p=' + codiad.active.getPath(), function (result) {
+          /** Set indent */
           if (result.tabWidth >= 2 && result.tabWidth <= 8) {
             codiad.editor.setTabSize(result.tabWidth)
           }
 
-          /**
-           * Set space
-           */
+          /** Set space */
           if (result.indentStyle === 'space') {
             codiad.editor.setSoftTabs(true)
           }
 
-          /**
-           * Set tab
-           */
+          /** Set tab */
           if (result.indentStyle === 'tab') {
             codiad.editor.setSoftTabs(false)
           }
