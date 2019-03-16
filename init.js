@@ -5,7 +5,7 @@
  * JavaScript code in this page.
  *
  * Edico - EDItorCOnfig for COdiad
- * Copyright (C) 2018  Vitortec.com
+ * Copyright (C) 2018-2019  Vitortec.com
  *
  * The JavaScript code in this page is free software: you can
  * redistribute it and/or modify it under the terms of the GNU
@@ -27,7 +27,7 @@
  * ECMAScript version 6
  *
  * @author    Vitor Guia <vitor.guia@vitortec.com>
- * @copyright 2018 Vitortec.com
+ * @copyright 2018-2019 Vitortec.com
  * @license   http://www.gnu.org/licenses GPL-3.0-or-later
  * @see       {@link https://github.com/vitorteccom/edico|Repository of Edico}
  */
