@@ -1,11 +1,12 @@
 # Edico
-EDItorCOnfig for COdiad
 
 [![Software License](https://img.shields.io/github/license/vitorteccom/edico.svg)](COPYING)
 
-This is a simple plugin for to support [EditorConfig](http://editorconfig.org/) in [Codiad](http://codiad.com/). This plugin is not official.
+> EDItorCOnfig for COdiad
 
-This package is compatible with code style [Standard](https://github.com/standard/standard), [LibreJS](https://www.gnu.org/software/librejs) and [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md).
+This is a simple plugin for to support [EditorConfig](https://editorconfig.org) in [Codiad](http://codiad.com). This plugin is not official.
+
+This package is compatible with code style [StandardJS](https://github.com/standard/standard), [LibreJS](https://www.gnu.org/software/librejs) and [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md).
 
 ## Install
 
@@ -13,10 +14,10 @@ To install you need to have the following pieces of software on your computer:
 
 - EditorConfig
 
-You can install ``EditorConfig`` via your operating system's package manager. For Debian-like GNU/Linux distributions this would be:
+You can install `EditorConfig` via your operating system's package manager. For Debian-like GNU/Linux distributions this would be:
 
 ``` bash
-$ apt-get install editorconfig
+# apt-get install editorconfig
 ```
 
 ## Usage
@@ -40,27 +41,19 @@ tab_width = 2
 indent_size = 4
 ```
 
-This plugin only supports for ``indent_style``, ``indent_size`` or ``tab_width``.
+This plugin only supports for `indent_style`, `indent_size` or `tab_width`.
 
-Partial support: ``tab_width`` cannot be set to a different value than ``indent_size`` when ``indent_style`` is "tab".
-
-## Change log
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+Partial support: `tab_width` cannot be set to a different value than `indent_size` when `indent_style` is "tab".
 
 ## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
+Pull Requests not accepted, please contact us at: `contato@vitortec.com`.
 
-## Security
-
-If you discover any security related issues, please email ``contato@vitortec.com`` instead of using the issue tracker.
-
-## Credits
+### Contributors
 
 - [Vitor Guia](https://github.com/vitoranguia)
-- [All Contributors](../../contributors)
+- [All Contributors](https://github.com/vitorteccom/dekajs/contributors)
 
 ## License
 
-GPL-3.0-or-later. Please see [COPYING File](COPYING) for more information.
+GPL-3.0-or-later, please see [COPYING](COPYING) file for more information.
