@@ -1,7 +1,7 @@
 <?php
 /**
  * Edico - EDItorCOnfig for COdiad
- * Copyright (C) 2018-2019  Vitortec.com
+ * Copyright (C) 2018-2019  SEPBIT
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,10 +18,10 @@
  *
  * PHP version 7.0
  *
- * @author    Vitor Guia <vitor.guia@vitortec.com>
- * @copyright 2018-2019 Vitortec.com
+ * @author    Vitor Guia <contato@vitor.guia.nom.br>
+ * @copyright 2018-2019 SEPBIT
  * @license   http://www.gnu.org/licenses GPL-3.0-or-later
- * @see       https://github.com/vitorteccom/edico Repository of Edico
+ * @see       https://notabug.org/sepbit/edico Repository of Edico
  */
 
 /** Get the project directory */

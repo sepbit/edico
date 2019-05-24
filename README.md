@@ -1,12 +1,10 @@
 # Edico
 
-[![Software License](https://img.shields.io/github/license/vitorteccom/edico.svg)](COPYING)
-
 > EDItorCOnfig for COdiad
 
 This is a simple plugin for to support [EditorConfig](https://editorconfig.org) in [Codiad](http://codiad.com). This plugin is not official.
 
-This package is compatible with code style [StandardJS](https://github.com/standard/standard), [LibreJS](https://www.gnu.org/software/librejs) and [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md).
+This package is compatible with code style [StandardJS](https://standardjs.com), [LibreJS](https://www.gnu.org/software/librejs) and [PSR-2](https://www.php-fig.org/psr/psr-2).
 
 ## Install
 
@@ -47,12 +45,7 @@ Partial support: `tab_width` cannot be set to a different value than `indent_siz
 
 ## Contributing
 
-Pull Requests not accepted, please contact us at: `contato@vitortec.com`.
-
-### Contributors
-
-- [Vitor Guia](https://github.com/vitoranguia)
-- [All Contributors](https://github.com/vitorteccom/edico/contributors)
+Pull Requests not accepted.
 
 ## License
 
