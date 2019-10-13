@@ -1,11 +1,11 @@
 /**
- * @source: https://notabug.org/sepbit/edico
+ * @source: https://gitlab.com/sepbit/edico
  *
  * @licstart  The following is the entire license notice for the
  * JavaScript code in this page.
  *
  * Edico - EDItorCOnfig for COdiad
- * Copyright (C) 2018-2019  SEPBIT
+ * Copyright (C) 2018-2019  Sepbit
  *
  * The JavaScript code in this page is free software: you can
  * redistribute it and/or modify it under the terms of the GNU
@@ -27,9 +27,9 @@
  * ECMAScript version 6
  *
  * @author    Vitor Guia <contato@vitor.guia.nom.br>
- * @copyright 2018-2019 SEPBIT
+ * @copyright 2018-2019 Sepbit
  * @license   http://www.gnu.org/licenses GPL-3.0-or-later
- * @see       {@link https://notabug.org/sepbit/edico|Repository of Edico}
+ * @see       {@link https://gitlab.com/sepbit/edico|Repository of Edico}
  */
 
 /* global jQuery, amplify */
